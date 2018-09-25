@@ -18,9 +18,10 @@ Rename `_config.json` to `config.json` and specify the following parameters:
 |`username`|Nest account username.|
 |`password`|Nest account password.|
 |`path`|Absolute path to local folder where content needs to be stored.<br/><br/>Default is the script path.|
-|`frame_rate`|Frame rate for the generated video.<br/><br/>Default is 24.|
+|`frame_rate`|Frames per second for the generated video.<br/><br/>Default is 24.|
+|`capture_delay`|Delay in seconds between still captures (different from output video frame rate and can be decimal).<br/><br/>Default is 5.|
 |`threshold`|Number of images that need to be combined in a video in a single buffer.<br/><br/>Default is 200.|
-|`width`|Image width for the capture image.<br/><br/>Default is 1280.|
+|`width`|Image width in pixels for the capture image.<br/><br/>Default is 1280.|
 |`clear_images`|Determines whether images are removed after video is produced.<br/><br/>Default is false.|
 |`produce_video`|Determines whether a video is generated after a threshold of captured images is hit.<br/><br/>Default is false.|
 |`upload_to_azure`|Determines whether the final video will be uploaded to Azure Storage.<br/><br/>Default is false.|

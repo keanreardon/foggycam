@@ -323,7 +323,7 @@ class FoggyCam(object):
 
             try:
                 response = self.merlin.open(request)
-                time.sleep(5)
+                time.sleep(config.capture_delay)
 
                 with open(camera_path + '/' + file_id + '.jpg', 'wb') as image_file:
                     for chunk in response:

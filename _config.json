@@ -3,6 +3,7 @@
     "password":"",
     "path": "",
     "frame_rate": 12,
+	"capture_delay": 5,
     "width": 1280,
     "threshold": 200,
     "clear_images": true,
